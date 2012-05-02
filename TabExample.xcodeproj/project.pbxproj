@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68FB44451551AAC900840D17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FB44441551AAC900840D17 /* UIKit.framework */; };
+		68FB44471551AAC900840D17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FB44461551AAC900840D17 /* Foundation.framework */; };
+		68FB44491551AAC900840D17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FB44481551AAC900840D17 /* CoreGraphics.framework */; };
+		68FB444F1551AAC900840D17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68FB444D1551AAC900840D17 /* InfoPlist.strings */; };
+		68FB44511551AAC900840D17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB44501551AAC900840D17 /* main.m */; };
+		68FB44551551AAC900840D17 /* TEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB44541551AAC900840D17 /* TEAppDelegate.m */; };
+		68FB44581551AAC900840D17 /* TEFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB44571551AAC900840D17 /* TEFirstViewController.m */; };
+		68FB445A1551AAC900840D17 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44591551AAC900840D17 /* first.png */; };
+		68FB445C1551AAC900840D17 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FB445B1551AAC900840D17 /* first@2x.png */; };
+		68FB445F1551AAC900840D17 /* TESecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB445E1551AAC900840D17 /* TESecondViewController.m */; };
+		68FB44611551AAC900840D17 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44601551AAC900840D17 /* second.png */; };
+		68FB44631551AAC900840D17 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44621551AAC900840D17 /* second@2x.png */; };
+		68FB44661551AAC900840D17 /* TEFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44641551AAC900840D17 /* TEFirstViewController.xib */; };
+		68FB44691551AAC900840D17 /* TESecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44671551AAC900840D17 /* TESecondViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68FB44401551AAC900840D17 /* TabExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FB44441551AAC900840D17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		68FB44461551AAC900840D17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68FB44481551AAC900840D17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		68FB444C1551AAC900840D17 /* TabExample-Info.plist */ = {isa = PBXFileReference; path = "TabExample-Info.plist"; sourceTree = "<group>"; };
+		68FB444E1551AAC900840D17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68FB44501551AAC900840D17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68FB44521551AAC900840D17 /* TabExample-Prefix.pch */ = {isa = PBXFileReference; path = "TabExample-Prefix.pch"; sourceTree = "<group>"; };
+		68FB44531551AAC900840D17 /* TEAppDelegate.h */ = {isa = PBXFileReference; path = TEAppDelegate.h; sourceTree = "<group>"; };
+		68FB44541551AAC900840D17 /* TEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEAppDelegate.m; sourceTree = "<group>"; };
+		68FB44561551AAC900840D17 /* TEFirstViewController.h */ = {isa = PBXFileReference; path = TEFirstViewController.h; sourceTree = "<group>"; };
+		68FB44571551AAC900840D17 /* TEFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEFirstViewController.m; sourceTree = "<group>"; };
+		68FB44591551AAC900840D17 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		68FB445B1551AAC900840D17 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		68FB445D1551AAC900840D17 /* TESecondViewController.h */ = {isa = PBXFileReference; path = TESecondViewController.h; sourceTree = "<group>"; };
+		68FB445E1551AAC900840D17 /* TESecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESecondViewController.m; sourceTree = "<group>"; };
+		68FB44601551AAC900840D17 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		68FB44621551AAC900840D17 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		68FB44651551AAC900840D17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TEFirstViewController.xib; sourceTree = "<group>"; };
+		68FB44681551AAC900840D17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TESecondViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68FB443D1551AAC900840D17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FB44451551AAC900840D17 /* UIKit.framework in Frameworks */,
+				68FB44471551AAC900840D17 /* Foundation.framework in Frameworks */,
+				68FB44491551AAC900840D17 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68FB44351551AAC900840D17 = {
+			isa = PBXGroup;
+			children = (
+				68FB444A1551AAC900840D17 /* TabExample */,
+				68FB44431551AAC900840D17 /* Frameworks */,
+				68FB44411551AAC900840D17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68FB44411551AAC900840D17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FB44401551AAC900840D17 /* TabExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68FB44431551AAC900840D17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68FB44441551AAC900840D17 /* UIKit.framework */,
+				68FB44461551AAC900840D17 /* Foundation.framework */,
+				68FB44481551AAC900840D17 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68FB444A1551AAC900840D17 /* TabExample */ = {
+			isa = PBXGroup;
+			children = (
+				68FB44531551AAC900840D17 /* TEAppDelegate.h */,
+				68FB44541551AAC900840D17 /* TEAppDelegate.m */,
+				68FB44561551AAC900840D17 /* TEFirstViewController.h */,
+				68FB44571551AAC900840D17 /* TEFirstViewController.m */,
+				68FB44591551AAC900840D17 /* first.png */,
+				68FB445B1551AAC900840D17 /* first@2x.png */,
+				68FB445D1551AAC900840D17 /* TESecondViewController.h */,
+				68FB445E1551AAC900840D17 /* TESecondViewController.m */,
+				68FB44601551AAC900840D17 /* second.png */,
+				68FB44621551AAC900840D17 /* second@2x.png */,
+				68FB44641551AAC900840D17 /* TEFirstViewController.xib */,
+				68FB44671551AAC900840D17 /* TESecondViewController.xib */,
+				68FB444B1551AAC900840D17 /* Supporting Files */,
+			);
+			path = TabExample;
+			sourceTree = "<group>";
+		};
+		68FB444B1551AAC900840D17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68FB444C1551AAC900840D17 /* TabExample-Info.plist */,
+				68FB444D1551AAC900840D17 /* InfoPlist.strings */,
+				68FB44501551AAC900840D17 /* main.m */,
+				68FB44521551AAC900840D17 /* TabExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68FB443F1551AAC900840D17 /* TabExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68FB446C1551AAC900840D17 /* Build configuration list for PBXNativeTarget "TabExample" */;
+			buildPhases = (
+				68FB443C1551AAC900840D17 /* Sources */,
+				68FB443D1551AAC900840D17 /* Frameworks */,
+				68FB443E1551AAC900840D17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TabExample;
+			productName = TabExample;
+			productReference = 68FB44401551AAC900840D17 /* TabExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68FB44371551AAC900840D17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TE;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Washington and Lee University";
+			};
+			buildConfigurationList = 68FB443A1551AAC900840D17 /* Build configuration list for PBXProject "TabExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68FB44351551AAC900840D17;
+			productRefGroup = 68FB44411551AAC900840D17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68FB443F1551AAC900840D17 /* TabExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68FB443E1551AAC900840D17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FB444F1551AAC900840D17 /* InfoPlist.strings in Resources */,
+				68FB445A1551AAC900840D17 /* first.png in Resources */,
+				68FB445C1551AAC900840D17 /* first@2x.png in Resources */,
+				68FB44611551AAC900840D17 /* second.png in Resources */,
+				68FB44631551AAC900840D17 /* second@2x.png in Resources */,
+				68FB44661551AAC900840D17 /* TEFirstViewController.xib in Resources */,
+				68FB44691551AAC900840D17 /* TESecondViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68FB443C1551AAC900840D17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68FB44511551AAC900840D17 /* main.m in Sources */,
+				68FB44551551AAC900840D17 /* TEAppDelegate.m in Sources */,
+				68FB44581551AAC900840D17 /* TEFirstViewController.m in Sources */,
+				68FB445F1551AAC900840D17 /* TESecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68FB444D1551AAC900840D17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68FB444E1551AAC900840D17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68FB44641551AAC900840D17 /* TEFirstViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68FB44651551AAC900840D17 /* en */,
+			);
+			name = TEFirstViewController.xib;
+			sourceTree = "<group>";
+		};
+		68FB44671551AAC900840D17 /* TESecondViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68FB44681551AAC900840D17 /* en */,
+			);
+			name = TESecondViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68FB446A1551AAC900840D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		68FB446B1551AAC900840D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		68FB446D1551AAC900840D17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabExample/TabExample-Prefix.pch";
+				INFOPLIST_FILE = "TabExample/TabExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68FB446E1551AAC900840D17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TabExample/TabExample-Prefix.pch";
+				INFOPLIST_FILE = "TabExample/TabExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68FB443A1551AAC900840D17 /* Build configuration list for PBXProject "TabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FB446A1551AAC900840D17 /* Debug */,
+				68FB446B1551AAC900840D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68FB446C1551AAC900840D17 /* Build configuration list for PBXNativeTarget "TabExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68FB446D1551AAC900840D17 /* Debug */,
+				68FB446E1551AAC900840D17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68FB44371551AAC900840D17 /* Project object */;
+}
