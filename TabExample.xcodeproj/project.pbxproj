@@ -21,6 +21,8 @@
 		68FB44631551AAC900840D17 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44621551AAC900840D17 /* second@2x.png */; };
 		68FB44661551AAC900840D17 /* TEFirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44641551AAC900840D17 /* TEFirstViewController.xib */; };
 		68FB44691551AAC900840D17 /* TESecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44671551AAC900840D17 /* TESecondViewController.xib */; };
+		68FB44741551AFE300840D17 /* TEThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FB44721551AFE300840D17 /* TEThirdViewController.m */; };
+		68FB44751551AFE300840D17 /* TEThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68FB44731551AFE300840D17 /* TEThirdViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +30,25 @@
 		68FB44441551AAC900840D17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		68FB44461551AAC900840D17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		68FB44481551AAC900840D17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		68FB444C1551AAC900840D17 /* TabExample-Info.plist */ = {isa = PBXFileReference; path = "TabExample-Info.plist"; sourceTree = "<group>"; };
+		68FB444C1551AAC900840D17 /* TabExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabExample-Info.plist"; sourceTree = "<group>"; };
 		68FB444E1551AAC900840D17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		68FB44501551AAC900840D17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		68FB44521551AAC900840D17 /* TabExample-Prefix.pch */ = {isa = PBXFileReference; path = "TabExample-Prefix.pch"; sourceTree = "<group>"; };
-		68FB44531551AAC900840D17 /* TEAppDelegate.h */ = {isa = PBXFileReference; path = TEAppDelegate.h; sourceTree = "<group>"; };
+		68FB44521551AAC900840D17 /* TabExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabExample-Prefix.pch"; sourceTree = "<group>"; };
+		68FB44531551AAC900840D17 /* TEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEAppDelegate.h; sourceTree = "<group>"; };
 		68FB44541551AAC900840D17 /* TEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEAppDelegate.m; sourceTree = "<group>"; };
-		68FB44561551AAC900840D17 /* TEFirstViewController.h */ = {isa = PBXFileReference; path = TEFirstViewController.h; sourceTree = "<group>"; };
+		68FB44561551AAC900840D17 /* TEFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TEFirstViewController.h; sourceTree = "<group>"; };
 		68FB44571551AAC900840D17 /* TEFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TEFirstViewController.m; sourceTree = "<group>"; };
 		68FB44591551AAC900840D17 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		68FB445B1551AAC900840D17 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		68FB445D1551AAC900840D17 /* TESecondViewController.h */ = {isa = PBXFileReference; path = TESecondViewController.h; sourceTree = "<group>"; };
+		68FB445D1551AAC900840D17 /* TESecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESecondViewController.h; sourceTree = "<group>"; };
 		68FB445E1551AAC900840D17 /* TESecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TESecondViewController.m; sourceTree = "<group>"; };
 		68FB44601551AAC900840D17 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		68FB44621551AAC900840D17 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		68FB44651551AAC900840D17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TEFirstViewController.xib; sourceTree = "<group>"; };
 		68FB44681551AAC900840D17 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TESecondViewController.xib; sourceTree = "<group>"; };
+		68FB44711551AFE300840D17 /* TEThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEThirdViewController.h; sourceTree = "<group>"; };
+		68FB44721551AFE300840D17 /* TEThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEThirdViewController.m; sourceTree = "<group>"; };
+		68FB44731551AFE300840D17 /* TEThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TEThirdViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +105,11 @@
 				68FB445E1551AAC900840D17 /* TESecondViewController.m */,
 				68FB44601551AAC900840D17 /* second.png */,
 				68FB44621551AAC900840D17 /* second@2x.png */,
+				68FB44711551AFE300840D17 /* TEThirdViewController.h */,
+				68FB44721551AFE300840D17 /* TEThirdViewController.m */,
 				68FB44641551AAC900840D17 /* TEFirstViewController.xib */,
 				68FB44671551AAC900840D17 /* TESecondViewController.xib */,
+				68FB44731551AFE300840D17 /* TEThirdViewController.xib */,
 				68FB444B1551AAC900840D17 /* Supporting Files */,
 			);
 			path = TabExample;
@@ -177,6 +185,7 @@
 				68FB44631551AAC900840D17 /* second@2x.png in Resources */,
 				68FB44661551AAC900840D17 /* TEFirstViewController.xib in Resources */,
 				68FB44691551AAC900840D17 /* TESecondViewController.xib in Resources */,
+				68FB44751551AFE300840D17 /* TEThirdViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,6 +200,7 @@
 				68FB44551551AAC900840D17 /* TEAppDelegate.m in Sources */,
 				68FB44581551AAC900840D17 /* TEFirstViewController.m in Sources */,
 				68FB445F1551AAC900840D17 /* TESecondViewController.m in Sources */,
+				68FB44741551AFE300840D17 /* TEThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
