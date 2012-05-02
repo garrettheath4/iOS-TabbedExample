@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TEFirstViewController : UIViewController
+@interface TEFirstViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
+
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @end
